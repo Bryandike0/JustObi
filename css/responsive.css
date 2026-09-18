@@ -1,0 +1,150 @@
+.box{
+    width: 30%;
+    height: 100px;
+    background: aqua;
+    display: inline-block;
+}
+
+@media(max-width: 600px){
+    .box{
+        display: block;
+        margin: 10px;
+    }
+}
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base (mobile first) */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* NAVBAR */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.menu{
+    display: none;
+}
+.hamburger{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* HERO IMAGE */
+.hero img{
+    width: 100%;
+}
+
+/* layout */
+.container{
+    display: block;
+    padding: 10px;
+}
+.content{
+    margin-bottom: 20px;
+}
+
+/* GRID */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.box{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* SIDEBAR */
+.sidebar{
+    display: none;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* BUTTONS */
+.btn-container{
+    text-align: center;
+    margin: 20px;
+}
+button{
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* tablet(>=600px) */
+@media(min-width:600px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* small laptop(>=768px) */
+@media(min-width:768px){
+    /* nav */
+    .menu{
+        display: flex;
+        gap: 15px;
+    }
+    .menu a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .hamburger{
+        display: none;
+        gap: 20px;
+    }
+    /* layout */
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    /* font size */
+    body{
+        font-size: 18px;
+    }
+}
+/* DESKTOP (>=1024) */
+@media(min-width:1024px){
+    /* grid */
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* image */
+    .hero img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    /* sidebar */
+    .sidebar{
+        display: block;
+        width: 30%;
+    }
+    .content{
+        width: 70%;       
+    }
+}
+
+/* large screen(>=1440px) */
+@media(min-width:1440px){
+    button{
+        padding: 20px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,90 @@
+nav{
+    background-color: black;
+    padding: 15px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li{
+    text-decoration: none;
+    color: rgb(207, 192, 174);
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(207, 192, 174);
+    font-weight: bold;
+}
+
+/* USER CTIO PSEUDO-CLASSES */
+/* hover, active, visited, focus, link */
+
+/* HOVER EFFECT */
+nav a:hover{
+    color: rgb(135, 135, 214);
+    border-bottom: 2px solid grey
+}
+
+/* LINK */
+nav a:link{
+    color: aquamarine;
+}
+
+/* VISITED LINK */
+/* visited pseudo class kick in when we clickona or visit any link */
+.jay:visited{
+    background-color: brown;
+    color: pink
+}
+
+/* FOCUS */
+/* the :focus helps usor identifies which link we are focusing on */
+nav a:focus{
+    outline: 2px solid yellowgreen;
+}
+
+/* required INPUT */
+input:required{
+    border: 2px solid red;
+}
+/* OPTIONAL */
+input:optional{
+    border: 2px solid grey;
+}
+input:optional:focus{
+    background-color: red;
+}
+
+/* Enabled input */
+input:enabled{
+    background-color:red
+}
+input:disabled{
+    background-color: #ddd;
+    color: #777;
+}
+/* checked example */
+input[type= 'checkbox'] :checked + label{
+    color: green;
+    font-weight: bold;
+}
+/* FORM AND BUTTON */
+input, button{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+button{
+    background-color: blue;
+    color: azure;
+    border: none;
+}
+button:hover{
+    background-color: darkblue;
+}

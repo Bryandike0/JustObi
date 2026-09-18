@@ -1,0 +1,65 @@
+/* :: before = it inserts content before the content of an element */
+
+.one::before{
+    content: 'Wednesday';
+    font-size: 25px;
+    color: brown;
+}
+
+/* after = adds or inserts contents after the content of the element  */
+.two::after{
+    content: 'Read More';
+    background-color: brown;
+    color: aquamarine;
+}
+
+/* :: first line applies styles to the first line of a blobk element  */
+.three::first-line{
+    color: brown;
+}
+
+/*  ::first letter applies styles to the first line of the element  */
+.four::first-letter{
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    font-size: 2em;
+}
+
+/* :: selection; applies styles to thepotion of a document that has been highlighted by the user */
+.five::selection{
+    background-color: blueviolet;
+    text-decoration: underline;
+    color: black
+}
+
+.example{
+    color: brown;
+}
+
+/* structural pseudo-classes */
+/* structural pseudo-classes are used to define a specoal state of an element. they allow you to apply styles based on conditions other than the documennt
+   tree, such as user interacion or element attributes. this is a prefix with a single colon(:) */
+
+   h1:first-child{
+    background-color: aquamarine;
+   }
+
+   p:last-child{
+    color: blueviolet;
+   }
+
+   p:nth-child(3){
+    text-decoration: underline;
+   }
+
+   p:nth-of-type(4){
+    background-color: brown;
+   }
+
+   p:first-of-type{
+    background-color: chocolate;
+   }
+
+   h1:last-of-type{
+    text-decoration: underline dotted blue;
+   }

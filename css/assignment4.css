@@ -1,0 +1,36 @@
+.zero{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    line-height: 3;
+}
+.one{
+    text-align: center;
+    font-style: italic;
+}
+.me1{
+    text-align: center;
+}
+#zero0{
+    color: brown;
+    text-decoration: underline;
+}
+.container{
+    text-align: center;
+    width: 100;
+}
+.obi{
+    background-color: brown;
+    color: white;
+}
+#ho{
+    font-style: italic;
+    color: brown;
+}
+.peter{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    line-height: 2;
+}

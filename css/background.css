@@ -1,0 +1,26 @@
+.box{
+    border: solid black 1px;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+/* Background color is used to set the background color
+ of an element  */
+
+ .color{
+    background-color: red
+ }
+
+ /* BG image is used to place an image behind or inside 
+ an element  */
+.image{
+    background-image: url('/assets/img/john\ doe.jpg');
+
+    background-size: 200px;
+    background-repeat: no-repeat;
+    /* BG repeat controls if the background image repeats or not */
+}
+body{
+    background: linear-gradient( black);
+}

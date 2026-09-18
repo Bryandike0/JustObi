@@ -1,0 +1,88 @@
+.box{
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+}
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+.parent{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+    margin: 40px;
+}
+
+.child{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: coral;
+}
+
+.fixed-box{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    color: azure;
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-color: blueviolet;
+    color: azure;
+}
+
+nav ul{
+    display: flex;
+    margin: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+img{
+    float: right;
+    margin-right: 20px;
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.z-index{
+    position: relative;
+    height: 1000px;
+    width: 500px;
+}
+.red{
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    z-index: 0;
+}
+
+.blue{
+    background-color: blue;
+     top: 100px;
+    left: 100px;
+    z-index: 1;
+
+}

@@ -1,0 +1,12 @@
+GIT and GIT HUB
+Git is a version control system
+
+It helps the developer to track their code and makes changes to their code overtime 
+Git helps us solve the problem of having multiplefiles or loosing our files by allowing
+us to save different version of your project
+
+VERSION CONTROL  - Means keeping trackof changes made on files overtime
+
+GITHUB - Is an online platform where git repositories can be stored and shared 
+
+git is a tool that can track your code while github is an online repository that we store ans share our codes. 

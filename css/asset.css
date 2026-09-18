@@ -1,0 +1,274 @@
+:root{
+    --bg: #05060a;
+    --bg-card: #0d0f16;
+    --border: #1e2130;
+    --text: #ffffff;
+    --text-dim: #9a9db0;
+    --accent: #5b5bf5;
+    --accent-light: #7d7dff;
+    --green: #22c55e;
+
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family:  'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    line-height: 1.4;
+}
+
+/* NAVBAR */
+
+.navbar {
+    position: sticky;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    /* background: linear-gradient( 90deg,#171a29, #242738, #171a29); */
+    border-bottom: 1px solid var(--border)
+
+}
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    color: var(--accent);
+    font-size: 42px;
+    text-shadow: 0 0 12px #663cff;
+}
+
+/* NAVIGATION LINKS */
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-links a {
+    position: relative;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 34px 0;
+}
+
+.nav-links a:hover {
+    color: #7045ff;
+}
+
+/* RIGHT SIDE BUTTONS */
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login:hover{
+    color: #7045ff;
+}
+
+.signup {
+    color: var(--text);
+    text-decoration: none;
+
+    background: var(--accent);
+    padding: 13px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 0 15px var(--accent-light);
+}
+
+.signup:hover {
+    box-shadow: 0 0 25px rgba(91, 55, 255, 0.8);
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 28px auto 60px;
+}
+
+/* =========================
+   HEADING
+========================= */
+
+.heading h1 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    /* line-height: 1.4; */
+    margin-bottom: 5px;
+    /* color: whitesmoke; */
+    color: var(--accent);
+}
+
+.heading p {
+    font-size: 13px;
+    /* color: whitesmoke; */
+    color: var(--text);
+}
+
+/* =========================
+   SUMMARY CARDS
+========================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    /* background: var(--bg-card); */
+}
+
+.card {
+   background: var(--bg-card);
+    border: 1px solid var(--bg-card);
+    border-radius: 9px;
+    padding: 17px;
+    min-height: 75px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+.card p {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* POSITIVE */
+.positive {
+    color: #378e79;
+}
+
+/* NEGATIVE */
+.negative {
+    color: #a55b5b;
+}
+
+/* CHART */
+.chart-box{
+    /* height: 145px; */
+    background: var(--bg-card);
+    /* border: 1px solid var(--border); */
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 18px 15px;
+}
+
+.chart-box h3 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.chart {
+    display: block;
+    width: 65%;
+    height: 100px;
+    margin: 8px auto 0;
+}
+
+/* HOLDINGS */
+.holdings {
+    margin-top: 25px;
+}
+
+.holdings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.holdings-header h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* SEARCH */
+.search {
+   border: 1px solid var(--border);
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 7px 12px;
+    color: var(--text);
+    font-size: 12px;
+}
+
+/* TABLE */
+.table {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr 1.2fr 1.2fr;
+    align-items: center;
+}
+
+.header {
+    color: var(--text);
+    font-size: 12px;
+    border-bottom: 1px solid var(--border);
+    padding: 10px 5px;
+}
+
+.header div:last-child,
+.row div:last-child {
+    text-align: right;
+}
+
+.row {
+    min-height: 38px;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+/* ASSET */
+.asset {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+/* COINS */
+.coin {
+    width: 19px;
+    height: 19px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    border-radius: 70px;
+    background: #e8f3f7;
+    color: #4d9ab7;
+}

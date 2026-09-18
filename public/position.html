@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/position.css">
+    <title>POSITION PROPERTIES</title>
+</head>
+<body>
+    <!-- STATIC, RELATIVE, ABSOLUTE, FIXED, STICKY -->
+
+    <!-- Static (default position of every element, the element follows the normal flow and we cant use it) -->
+
+    <div class="box static">Static Box</div>
+
+    <!-- Relative (The element stays in the normal flow, but we can move the element to the top, bottom, left or right
+     and it moves in relative to it's original position (that the original space is still reserved))-->
+
+     <div class="box relative">Relative Box</div>
+
+     <!-- ABSOLUTE (The element is removed from the normal flow and it position itself relative to the 
+      nearest ancestor)-->
+
+      <div class="parent">
+        <div class="child">Absolute Box</div>
+      </div>
+      <!-- FIXED (remove the normal flow and itls positioned relative to the view port (screen) it 
+       stays in the same place even when scrolling)-->
+
+       <div class="fixed-box">Fixed Box</div>
+
+       <!-- STICKY (acts like a relative atfirst and becomes fixed when scrolling to a certain point)-->
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nulla, iusto distinctio doloribus fugit recusandae adipisci consectetur et. Blanditiis officia dolores, corrupti iste mollitia possimus error explicabo voluptate ex voluptatibus odio minima necessitatibus voluptas nisi sapiente facere beatae ullam nulla laborum reiciendis non expedita dolore suscipit exercitationem. Ullam animi dicta quo recusandae molestias, doloribus omnis, a nam quidem quas ad sed molestiae adipisci laborum, veritatis rem velit eaque modi! Animi deleniti reprehenderit quaerat velit nulla ut nihil dicta totam dolores vitae sed maxime, commodi quae ratione a culpa explicabo aspernatur. Quos maiores tenetur nulla repudiandae ipsam dolorem? Quo, quidem earum.</p>
+       <nav>
+          <ul>
+               <li>Home</li>
+               <li>Home</li>
+               <li>Home</li>
+               <li>Home</li>
+               <li>Home</li>
+        </ul>
+       </nav>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus soluta consequuntur, alias odit omnis quis. Doloremque voluptatem vel accusantium commodi porro pariatur praesentium tempore necessitatibus placeat dolor eveniet recusandae possimus fugiat similique ad error beatae corporis, libero eligendi iusto. Odio tenetur laboriosam officiis neque iusto esse. Dolore, cum nostrum voluptatibus natus veniam nulla, dolorem, soluta sunt aperiam similique deserunt culpa nemo! Facilis eligendi totam perspiciatis eius consequatur vel perferendis corporis voluptatem aliquam fuga beatae rem libero blanditiis expedita quas reiciendis aspernatur, nostrum consectetur repellat! Fuga perspiciatis aspernatur adipisci distinctio quia unde sit veritatis. Exercitationem laboriosam facere, atque fuga harum deleniti.</p>
+
+       <!--FLOAT ( FLOAT IS ISED TO MOVE AN ELEMENT TO THE RIGHT OF IT'S CONTAINER, ALLOWING TEXT OR AN INLINE ELEMENT
+       TO WRAP AROUND IT) -->
+       <!-- lefy, right or none -->
+
+       <h2>THIS IS A WEBSITE</h2>
+       <img src="/assets/img/WhatsApp Image 2026-07-07 at 19.48.57.jpeg" alt="" width="300px">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, minima. Sunt nulla veritatis pariatur illum doloremque ad alias excepturi quia asperiores, esse velit hic ut aut itaque dolore veniam exercitationem ratione repellendus. Odio deleniti magnam quia quae distinctio eius doloribus! Repellat quam voluptate atque exercitationem. Suscipit pariatur culpa perspiciatis, minima delectus beatae, praesentium sunt autem, exercitationem quaerat possimus ab accusantium laudantium excepturi harum ea recusandae rem optio in qui voluptates mollitia aliquid facere! Nulla numquam sit impedit unde nobis! Ipsam consectetur incidunt voluptatem reiciendis. Repellendus alias consectetur qui ratione voluptas voluptatem necessitatibus, saepe eligendi unde minus nulla, aut esse vitae.</p>
+
+       <!-- Z INDEX -->
+        <!-- Z INDEX controls which element appears in front or behind when the element overlaps -->
+
+        <!-- Z INDEX only works on elements that have a position value other than static -->
+         <!-- z-index: 10; -ontop-->
+          <!-- z-index: 1; -behind-->
+           <!-- z-index: -1; -very behind-->
+
+           <div class="z-index">
+            <div class="box1 red"></div>
+            <div class="box1 blue"></div>
+           </div>
+</body>
+</html>

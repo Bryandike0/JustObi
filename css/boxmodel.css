@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    /* The box sizing properties defines how the width and height of an element are calculated  */
+    /* We have 2 basic box-sizing which is the content-box(default) and the border-box */
+    /* Using the border-box the elements width and height are easier to manage */
+}
+
+/* CONTENT */
+.box1{
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+}
+
+/* PADDING */
+.box2{
+    background-color: rgb(63, 36, 36);
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+}
+/* BORDER */
+.box3{
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+    /* size, type(solid or dashed) the color*/
+}
+.box4{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(99, 235, 235);
+    margin: auto;
+
+}

@@ -1,0 +1,17 @@
+.one{
+    text-align: center;
+}
+
+.two{
+    font-size: 38px;
+    color: gray;
+    text-align: center;
+}
+
+#one{
+    background-color: yellowgreen;
+}
+
+#two{
+    font-size: 45px;
+}

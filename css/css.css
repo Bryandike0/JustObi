@@ -1,0 +1,48 @@
+/* universal selector - is denoted with * and it's select all the element in the document. - 
+ the universal selector will always be overridden when an element has a specific style*/
+
+ *{
+    color: goldenrod;
+ }
+
+ /* Element selectors targets HTML elements */
+ h2{
+    color: aquamarine;
+ }
+
+ /* Class selector  - this has to do with the class attribute and it's denoted with dot .  */
+ .one{
+    color: brown;
+ }
+
+ /* ID selector - targets elements by it's ID and it's denoted with #  */
+ #one{
+    color: greenyellow;
+ }
+
+ /* COMBINATORS - compound selector and multiple selector */
+
+ /* COMPOUND SELECTOR - is using to or more selector to style an element  */
+ .container h1{
+    background-color: bisque;
+ }
+ .container p{
+    background-color: beige;
+ }
+
+ /* MULTIPLE SELECTOR - we can style multiple elements at the same time  */
+
+ .daniel, .chelsea{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    text-decoration: underline;
+ }
+
+ .obi, .judo{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    text-decoration:line-through
+ }
+

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/class.css">
+    <title>Project</title>
+
+<body>
+
+<!-- Navigation -->
+<header>
+
+    <div class="logo">
+        MiniStore
+    </div>
+
+    <nav>
+
+        <a href="#">Home</a>
+
+        <a href="#products">Products</a>
+
+        <button id="cart-btn">
+            🛒 Cart (<span id="cart-count">0</span>)
+        </button>
+
+    </nav>
+
+</header>
+
+
+<!-- Hero -->
+<section class="hero">
+
+    <div>
+
+        <p class="small-title">
+            WELCOME TO MINISTORE
+        </p>
+
+        <h1>
+            Everything you need.
+            <br>
+            All in one place.
+        </h1>
+
+        <p>
+            Discover quality products at affordable prices.
+        </p>
+
+        <a href="#products" class="shop-btn">
+            Shop Now
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- Products -->
+<main id="products">
+
+    <h2>Featured Products</h2>
+
+    <div id="products-container" class="products">
+
+
+        <!-- Product 1 -->
+
+        <div class="product">
+
+            <div class="product-image">
+                👟
+            </div>
+
+            <h3>Sneakers</h3>
+
+            <p>₦25,000</p>
+
+            <button class="add-btn">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- Product 2 -->
+
+        <div class="product">
+
+            <div class="product-image">
+                🎒
+            </div>
+
+            <h3>Backpack</h3>
+
+            <p>₦15,000</p>
+
+            <button class="add-btn">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- Product 3 -->
+
+        <div class="product">
+
+            <div class="product-image">
+                🎧
+            </div>
+
+            <h3>Headphones</h3>
+
+            <p>₦20,000</p>
+
+            <button class="add-btn">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- Product 4 -->
+
+        <div class="product">
+
+            <div class="product-image">
+                ⌚
+            </div>
+
+            <h3>Smart Watch</h3>
+
+            <p>₦35,000</p>
+
+            <button class="add-btn">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- Product 5 -->
+
+        <div class="product">
+
+            <div class="product-image">
+                👕
+            </div>
+
+            <h3>T-Shirt</h3>
+
+            <p>₦12,000</p>
+
+            <button class="add-btn">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- Product 6 -->
+
+        <div class="product">
+
+            <div class="product-image">
+                🕶️
+            </div>
+
+            <h3>Sunglasses</h3>
+
+            <p>₦10,000</p>
+
+            <button class="add-btn">
+                Add to Cart
+            </button>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<!-- Cart Sidebar -->
+
+<div id="cart-sidebar" class="cart-sidebar">
+
+    <div class="cart-header">
+
+        <h2>Your Cart</h2>
+
+        <button id="close-cart">
+            ✕
+        </button>
+
+    </div>
+
+
+    <div id="cart-container">
+
+        <p>Your cart is empty.</p>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <h3>
+            Total: ₦<span id="cart-total">0</span>
+        </h3>
+
+        <button class="checkout-btn">
+            Checkout
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- Overlay -->
+
+<div id="overlay"></div>
+
+
+<script src="/JS INTRO/project.js"></script>    
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* BASIC TEXT PROPERTIES */
+.one{
+    color: blue;
+}
+.two{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.three{
+    font-size: 40px;
+}
+.four{
+    font-weight: bolder;
+}
+.five{
+    font-style: italic;
+}
+.six{
+    text-align: center;
+    /* center, left, right */
+}
+
+/* ADVANCE TEXT PROPERTIES */
+.one1{
+    text-decoration: underline;
+}
+.two2{
+    text-transform: uppercase;
+}
+.three3{
+    letter-spacing: 5px;
+}
+.four4{
+
+}
+.five5{
+    text-indent: 50px;
+}
+.six6{
+    white-space: nowrap;
+}
+.seven7{
+    line-height: 4;
+}
+
+/* TEXT AND SHADOW DECORATION */
+#one{
+    text-shadow: 2px 2px 4px rebeccapurple;
+}
+#two{
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+#three{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+#four{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: brown;
+}
